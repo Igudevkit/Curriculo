@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar 3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script>
+      function openPage(page) {
+        window.location.href = page;  // Redireciona para a página correspondente
+      }
+    </script>
+  </head>
+  <body>
+    <button type="button" class="burger" onclick="toggleSidebar()"></button>
+    <img class="logo" src="assets/logo.svg" />
+    <aside class="sidebar">
+      <header class="sidebar-header"></header>
+      <nav>
+        <button type="button" onclick="openPage('home.html')">
+          <img src="assets/icon-home.svg" />
+          <span>Home</span>
+        </button>
+        <button type="button" onclick="openPage('conhecimentos.html')">
+          <img src="assets/icon-settings.svg" />
+          <span>Conhecimentos</span>
+        </button>
+        <button type="button" onclick="openPage('trabalhos.html')">
+          <img src="assets/icon-levels.svg" />
+          <span>Trabalhos</span>
+        </button>
+      </nav>
+      <nav>
+        <button type="button" onclick="openPage('experiencias.html')">
+          <img src="assets/icon-folders.svg" />
+          <span>Experiencias</span>
+        </button>
+        <button type="button" onclick="openPage('Igor.html')">
+          <img src="assets/icon-accounts.svg" />
+          <span>Eu</span>
+        </button>
+      </nav>
+      <nav>
+        <button type="button" onclick="openPage('curriculo.html')">
+          <img src="assets/file-download.svg" />
+          <span>Curriculo</span>
+        </button>
+      </nav>
+    </aside>
+    <main>
+      <section class="no-parallax">
+        <div>
+          <h2>Sobre</h2>
+          <p>
+            Olá! Me chamo Igor Rodrigues da Silva. Nasci em 03/09/2002, em Florianópolis.
+          </p>
+          <p>
+            Quando era adolescente, ganhei um notebook velho, e foi nele que comecei a explorar o mundo da programação.
+          </p>
+          <p>
+            Inicialmente baixando uma versão pirata de Minecraft.
+          </p>
+          <p>
+            Foi com o Minecraft que surgiu a vontade de desenvolver mods para o jogo. 
+          </p>
+          <p>
+            Comecei a aprender com tutoriais no YouTube e materiais de Java que encontrava pela internet.
+          </p>
+          <p>
+            Essa experiência despertou minha paixão pela programação, especialmente pelo Front-End,
+          </p>
+          <p> 
+            o que me levou a escolher Análise e Desenvolvimento de Sistemas (ADS) como graduação.
+          </p>
+          <p>
+            Minha paixão pelo HTML começou no meu primeiro trabalho formal na Intelbras. 
+          </p>
+          <p>
+            Lá, tive a oportunidade de trabalhar em uma página que utilizava a API da MediaWiki
+          </p>
+          <p>
+            Criei grandes projetos nessa página e recebi muitos feedbacks positivos, o que me motivou ainda mais.
+          </p>
+          <p>
+            Essa paixão continuou crescendo a ponto de eu pensar:
+          </p>
+          <p>
+            "Por que não criar uma página web para mim, como um currículo em HTML?"
+          </p>
+          <p>
+            E aqui estamos! Você está navegando por uma página criada por mim para compartilhar um pouco sobre quem eu sou.
+          </p>
+          <p>
+            Talvez isso seja uma espécie de blog?
+          </p>
+          <img src="assets/icon-settings.svg">
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
